@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Qui suis-je ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parcours">Mon parcours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Mes compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <banner class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" style="height:100vh; background-size: cover; background-image: url(img/banner.png);">
+
+        <div class="container-fluid">
+            <div class="row  justify-content-center align-items-center d-flex text-center h-100">
+                <div class="col-12 col-md-8  h-50 ">
+                    <h1 class="display-2  text-light mb-2 mt-5"><strong>BOUXIN CYRIL</strong> </h1>
+                    <p class="lead  text-light mb-5">Etudiant en Développement Web & Web mobile.</p>
+                    <p><a href="download/cvbouxincyril.pdf" class="btn shadow-lg btn-round text-light btn-lg btn-rised">Telechargez mon CV !</a></p>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </banner>
+
+    <main>
+
+        <div class="row presentation">
+            <div class="col-lg-1 hidden-md"></div>
+            <div class="col-lg-4 col-md-12">
+                <img id="photoprofil" src="img/cyrilbouxin.png" alt="Photo de profil de Cyril Bouxin">
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <h2>A PROPOS</h2>
+                <p>Moi c'est Cyril, <br> j'ai 24 ans et je suis étudiant en Développement Web auprès du centre de formation Valarep Valenciennes.</p>
+                <p>J'ai toujours été fasciné par les nouvelles technologies et l'informatique, et j'ai décidé dernièrement de faire de cette passion mon métier.</p>
+            </div>
+            <div class="col-lg-1 hidden-md"></div>
+        </div>
+
+        <div class="container mt-5 mb-5">
+            <div id="parcours">
+                <h2>MON PARCOURS</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Diplôme & formation</h3>
+                    <ul class="timeline">
+                        <li>
+                            <h4>Développement Web & Web mobile - Valarep</h4>
+                            <p href="#" class="float-right">2020 / 2021</p>
+                            <p>Après quelques temps de eLearning, je décide de me former en parallèle via un centre de formation proche de chez moi, me permettant ainsi d’avoir un soutient physique dans mon apprentissage.</p>
+                        </li>
+                        <li>
+                            <h4>DAEU Option Littéraire - Université Sorbonne Nouvelle</h4>
+                            <p class="float-right">2018 / 2019</p>
+                            <p>N’ayant pas saisi l’opportunité de passer mon Bac durant ma jeunesse, je décide de passer un diplôme équivalent au sein de l'université Sorbonne Nouvelle.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Parcours professionnel</h3>
+                    <ul class="timeline">
+                        <li>
+                            <h4>Vendeur Conseil - Jules Petite-Forêt</h4>
+                            <p href="#" class="float-right">2020</p>
+                            <p>Dans l'attente d'une possible reconversion professionnelle, l'enseigne Jules m'à de nouveau intégré en contrat a durée determiné</p>
+                        </li>
+                        <li>
+                            <h4>Vendeur Conseil - Jules Paris-Bastille</h4>
+                            <p class="float-right">2016 / 2018</p>
+                            <p>En 2016, je pars sur Paris dans le but de trouver du travail. Le mois qui suit, j'intègre la boutique Jules Bastille en CDD, puis CDI.</p>
+                            <p></p> S'en suit deux belles années au sein de cette boutique. Je décide finalement de rompre mon contrat, ne voyant pas mon avenir dans le domaine du commerce</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ///CONTACT///-->
+        <section class="Material-contact-section section-padding section-dark">
+            <div class="container">
+                <div class="row">
+                    <!-- Section Titile -->
+                    <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                        <h2>ME CONTACTER</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Section Titile -->
+                    <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                        <p>Si vous souhaitez me contacter, veuillez remplir ce formulaire, je vous répondrais dans les plus brefs délais. Merci !</p>
+
+                        <div class="infos-contact">
+                            Nom & Prénom: Bouxin Cyril
+                        </div>
+                        <div class="infos-contact">
+                            Telephone: 06 95 78 66 91
+                        </div>
+
+                        <div class="infos-contact">
+                            Site internet: www.bouxin-cyril.fr
+                        </div>
+                    </div>
+                    <!-- contact form -->
+                    <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                        <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                            <!-- Name -->
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="name">Entreprise</label>
+                                <input class="form-control" id="name" type="text" name="name" required data-error="Merci de bien vouloir entrer le nom de votre entreprise">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Name -->
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="name">Nom & Prénom</label>
+                                <input class="form-control" id="name" type="text" name="name" required data-error="Merci de bien vouloir entrer votre nom et votre prenom">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- email -->
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="email">Email</label>
+                                <input class="form-control" id="email" type="email" name="email" required data-error="Merci de bien vouloir entrer votre adresse mail">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Subject -->
+                            <div class="form-group label-floating">
+                                <label class="control-label">Objet</label>
+                                <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Merci de bien vouloir entrer l'objet de votre mail">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Message -->
+                            <div class="form-group label-floating">
+                                <label for="message" class="control-label">Message</label>
+                                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Ecrivez votre message"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Form Submit -->
+                            <div class="form-submit mt-5">
+                                <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i>Envoyer</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,10 @@
+{
+    "name": "bouxi/bouxin-cyril",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.5",
+        "components/jquery": "^3.5"
+    },
+    "license": "gpl 3.0",
+    "minimum-stability": "stable"
+}
